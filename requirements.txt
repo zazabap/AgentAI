@@ -1,0 +1,13 @@
+   torch
+   fastapi
+   uvicorn
+   streamlit
+   prefect
+   watchdog
+   langchain
+   transformers
+   great_expectations
+   pandas
+   langchain_community
+   monitoring
+   accelerator

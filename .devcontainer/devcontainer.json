@@ -1,0 +1,21 @@
+{
+    "name": "AI Agent Dev",
+    "build": {
+        "dockerfile": "Dockerfile.dev",
+        "context": ".."
+    },
+    "runArgs": [
+        "--gpus", "all",
+        "--volume", "${localWorkspaceFolder}:/app",
+        "--network", "host"
+    ],
+    "extensions": [
+        "ms-python.python",
+        "ms-vscode-remote.remote-containers"
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/bin/python3"
+    },
+    "postCreateCommand": "pip install -r requirements.txt",
+    "remoteUser": "root"
+}
