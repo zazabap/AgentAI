@@ -106,8 +106,6 @@ AgentAI/
 
 ## License
 
-[Add your license information here]
+MIT License
 
-## Contributing
-
-[Add contribution guidelines here]
+Copyright (c) 2025 Shiwen An
